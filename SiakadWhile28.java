@@ -20,13 +20,13 @@ public class SiakadWhile28 {
                 
             if (nilai > 80 && nilai <= 100){
                 System.out.println(" Nilai mahasiswa ke- " + (i + 1)+ "Adalah A");
-            } else if (nilai < 73 && nilai <= 80){
+            } else if (nilai > 73 && nilai <= 80){
                 System.out.println("Nilai mahaasiswa ke- "+ (i + 1)+ "Adalah B+");
-            } else if ( nilai < 65 && nilai <= 73){
+            } else if ( nilai > 65 && nilai <= 73){
                 System.out.println("Nilai mahasiswa ke- "+ (i + 1)+ "Adalah B");
-            } else if (nilai < 60 && nilai <= 65) {
+            } else if (nilai > 60 && nilai <= 65) {
                 System.out.println("Nilai mahsiswa ke- "+(i + 1)+" Adalah C+");  
-            } else if (nilai < 50 && nilai <= 60){
+            } else if (nilai > 50 && nilai <= 60){
                 System.out.println("Nilai mahasiswa ke- "+( i + 1)+ "Adalah D");
             } else {
                 System.out.println("Nilai mahasiswa ke- "+(i + 1)+ "Adalah E");
