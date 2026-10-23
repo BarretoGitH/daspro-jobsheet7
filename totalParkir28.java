@@ -27,6 +27,7 @@ public class totalParkir28 {
         }
     } while (true);
     System.out.println("Total uang yang diperoleh: Rp. " + total);
+    
     sc.close();
     }
 }
